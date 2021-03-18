@@ -7,7 +7,7 @@ using namespace std;
 
 int main(){
     WavSound sound1; // helper
-    int sample_rate = 41400; // samples per second
+    int sample_rate = 44100; // samples per second
     // your code goes here
     double dt = 1.0/sample_rate;
     int duration = 5.0;
